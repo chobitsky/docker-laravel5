@@ -1,0 +1,7 @@
+/.idea
+/.vscode
+/docker/ash/.ash_history
+/logs/*
+.devcontainer.json
+.env
+/src
