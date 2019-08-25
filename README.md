@@ -28,9 +28,13 @@ $ docker-compose exec app composer require predis/predis
 ```
 
 `http://127.0.0.1:10080`
+
 or
+
 `http://localhost:10080`
+
 or
+
 `curl -s http://localhost:10080/ -o /dev/null -w '%{http_code}\n'`
 
 ### Running Migrations
