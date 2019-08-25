@@ -45,3 +45,11 @@ services:
     volumes:
       - ${PROJECT_PATH}:/work
     working_dir: /work
+
+  redis:
+    image: redis:5.0-alpine
+    volumes:
+      - redis-store:/data
+
+volumes:
+  redis-store:

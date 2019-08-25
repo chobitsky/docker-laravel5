@@ -27,7 +27,9 @@ $ docker-compose exec app composer create-project --prefer-dist "laravel/laravel
 $ docker-compose exec app composer require predis/predis
 ```
 
-http://127.0.0.1:10080
+`http://127.0.0.1:10080`
+or
+`http://localhost:10080`
 
 ### Running Migrations
 
